@@ -39,6 +39,7 @@ for filename in os.listdir(directory):
 				bad_reads.append(header)
 		good = len(good_reads)
 		bad = len(bad_reads)
+		print (input_file)
 		print ("Good reads:", good)
 		print ("Bad reads:", bad)
 #write good reads
